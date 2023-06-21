@@ -561,11 +561,205 @@ h2 {
 .arrayContainer {
 
   background-color: #FFFFFF;
-  height: 430px;
+  height: 500px;
   border-radius: 4px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-bottom: 40px;
+  padding-bottom: 20px;
+
+}
+
+.search {
+
+  height: 35px;
+  border-radius: 60px;
+  outline: none;
+  width: 250px;
+  border: 1px solid #4a8283;
+  padding-left: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  
+
+}
+
+.searchContainer {
+
+  height: 100px;
+  position: relative;
+  margin-bottom: 30px;
+  
+
+}
+
+.arrayContent {
+
+ 
+  width: 100%;
+  height: 350px;
+  border: 1px solid #E8E8E8;
+  
+
+
+}
+
+.arrayContent table thead tr td {
+
+  width: 400px;
+  border-right: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+  height: 35px;
+  text-align: center;
+  cursor: pointer;
+ 
+
+
+}
+
+.arrayContent table {
+
+  border-spacing: 0;
+
+}
+
+.arrayContent table  tr td {
+
+  width: 400px;
+  border-bottom: 1px solid #E8E8E8;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.arrayBody {
+
+  background-color: #f7f7f773;
+
+
+}
+
+.arrayhover:hover {
+
+  background-color: #F7F7F7;
+
+}
+.customerPicture {
+
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+.arrayFooter {
+
+  height: 50px;
+  border-top: 1px solid #E8E8E8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+
+}
+
+.prevOrNext {
+
+  height: 33px;
+  width: 450px;
+  background-color: #F2F2F2;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 7px;
+  cursor: pointer;
+
+
+}
+
+.sizeArray {
+
+  height: 35px;
+  text-align: center;
+  padding-top: 9px;
+  font-size: 1.2rem;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  
+}
+
+.pageInput {
+
+  width: 50px;
+  height: 20px;
+
+}
+
+select {
+
+  /* background-color: red; */
+  width: 70px;
+  height: 30px;
+  /* border: none; */
+  outline: none;
+
+}
+
+.summaryCustomer {
+
+  height: 100px;
+  width: 300px;
+  background-color: #F84331;
+  background-image: linear-gradient(to left, #F0136C, #F84331);
+
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.dashboardContainer {
+
+  padding-top: 30px;
+
+}
+
+.totalNumber {
+
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: block;
+
+}
+
+.dumbbellSolid {
+
+  height: 30px;
+  width: 30px;
+
+}
+
+.summaryContext {
+
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1.3rem;
+  display: block;
+  position: absolute;
+  bottom: 20px;
+
 
 }
 

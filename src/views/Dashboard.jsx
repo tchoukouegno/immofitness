@@ -6,6 +6,7 @@
  */
 import { useEffect} from 'react';
 import {  useNavigate } from "react-router-dom";
+import dumbbellSolid from "../assets/icons/dumbbellSolid.svg"
 
 
 export function Dashboard () {
@@ -30,9 +31,25 @@ export function Dashboard () {
     return (
 
         <>
-        
-        
-           
+
+            <div className='dashboardContainer'>
+
+
+                    
+                    <div className='summaryCustomer'>
+
+                        <span className='totalNumber'>200</span>
+
+                        <img src={dumbbellSolid} className='dumbbellSolid' alt='dumbbell-solid'/>
+
+                        <span className='summaryContext'>Total Salle de sport</span>
+                    </div>
+
+
+
+
+            </div>
+                    
         
         
         </>
