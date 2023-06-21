@@ -9,7 +9,7 @@ import { Login } from "../views/Login";
 import { SideNavBar } from '../views/SideNavBar';
 import { Users } from '../views/Users';
 import { Dashboard } from '../views/Dashboard';
-import {AddUsers} from '../views/addUsers'
+import {AddUsers} from '../views/AddUsers'
 
 
 
